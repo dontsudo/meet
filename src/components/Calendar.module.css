@@ -1,0 +1,96 @@
+.calendar {
+  flex-grow: 1;
+}
+
+.monthHeader {
+  padding-left: 40px;
+  padding-bottom: 6px;
+  font-size: 16px;
+}
+
+.timeColumn {
+  font-size: 11px;
+  float: left;
+}
+
+.timeColumn,
+.calendarGrid {
+  text-transform: uppercase;
+}
+
+.header {
+  text-align: center;
+  padding: 5px;
+  height: 42px;
+}
+
+.timezone {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  text-align: center;
+  padding: 5px;
+  height: 42px;
+}
+
+.timeGroup {
+  text-transform: uppercase;
+}
+
+.timeSlot {
+  text-align: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.calendar .timeSlot,
+.calendar .slot {
+  height: 20px;
+}
+
+.calendarGrid {
+  display: flex;
+  user-select: none;
+}
+
+.column {
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  padding: 5px;
+  height: 42px;
+}
+
+.dayOfWeek {
+  display: block;
+  font-size: 12px;
+  padding: 2px;
+}
+
+.day {
+  font-size: 17px;
+}
+
+.slots {
+  cursor: pointer;
+}
+
+.slotGroup {
+  position: relative;
+  box-shadow: inset 1px 1px 0 #e0e0e0;
+}
+
+.column:last-child .slotGroup {
+  border-right: 1px solid #e0e0e0;
+}
+
+.slotGroup:last-child {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.selected {
+  background-color: #33cc6680; /* Set your desired background color here */
+  /* Add any other styling you want for selected slots */
+}
